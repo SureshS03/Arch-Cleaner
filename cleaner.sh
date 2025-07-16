@@ -34,5 +34,6 @@ echo "Cleaning minikubes..."
 minikube delete --all
 minikube delete --all --purge
 sudo rm -rf ~/.minikube
+rm -rf ~/.kube/cache
 
 echo "System cleanup complete! You’ve saved some solid space."
