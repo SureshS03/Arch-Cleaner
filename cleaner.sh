@@ -22,6 +22,7 @@ echo "Cleaning pacman cache deeply..."
 sudo pacman -Sc
 sudo pacman -Scc
 sudo pacman -Rns $(pacman -Qtdq)
+paru -Rns $(paru -Qtdq)
 
 echo "Cleaning Docker..."
 #start docker if not
